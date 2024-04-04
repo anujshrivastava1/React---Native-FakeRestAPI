@@ -10,7 +10,7 @@ class LaptopList extends Component {
     };
 
     componentDidMount() {
-        axios.get('https://my-json-server.typicode.com/rohitpatil03/mockapi/laptops')
+        axios.get('https://my-json-server.typicode.com/anujshrivastava1/MyDemo/laptops')
             .then((res) => {
                 this.setState({ cars: res.data, loading: false });
             })
