@@ -8,7 +8,7 @@ export const LaptopProvider = ({ children }) => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        axios.get('https://my-json-server.typicode.com/rohitpatil03/mockapi/laptops')
+        axios.get('https://my-json-server.typicode.com/anujshrivastava1/MyDemo/laptops')
             .then((res) => {
                 setCars(res.data);
                 setLoading(false);
